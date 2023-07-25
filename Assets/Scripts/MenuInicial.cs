@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class MenuInicial : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+//Salir de la aplicacion
+public void Salir(){
+    Debug.Log("Salir...");
+    Application.Quit();
     }
 }
