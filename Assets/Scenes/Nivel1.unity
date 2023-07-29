@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 1407096415}
   - component: {fileID: 1407096416}
   - component: {fileID: 1407096417}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpableGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   moveSpeed: 8
   JumpForce: 7
 --- !u!1 &1890610050
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 1890610055}
   - component: {fileID: 1890610054}
   - component: {fileID: 1890610057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terreno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1397,7 +1397,7 @@ PlatformEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RotationalOffset: 0
   m_UseOneWay: 0
   m_UseOneWayGrouping: 0

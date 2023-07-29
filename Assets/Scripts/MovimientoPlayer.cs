@@ -9,7 +9,7 @@ public class MovimientoPlayer : MonoBehaviour
     private SpriteRenderer sprite;
 
     private BoxCollider2D coll;
-    [SerializeField] private LayerMask jumpableGround;
+    [SerializeField] public LayerMask jumpableGround;
 
     private float DireX = 0f;
     [SerializeField] private float moveSpeed = 8f;
