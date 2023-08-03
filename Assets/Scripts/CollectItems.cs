@@ -5,7 +5,7 @@ using TMPro;
 
 public class CollectItems : MonoBehaviour
 {
-    public AudioSource Collected;
+    //public AudioSource Collected;
     private int cherries = 0;
 
  
@@ -15,10 +15,10 @@ public class CollectItems : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Cherry"))
         {
-            Collected.Play();
+            //Collected.Play();
             Destroy(collision.gameObject);
             cherries++;
-            CherriesText.text = "CHERRIES: " + cherries;
+            CherriesText.text = "Score: " + cherries;
         }
     }
 }
