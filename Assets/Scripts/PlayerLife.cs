@@ -7,7 +7,7 @@ public class PlayerLife : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    public AudioSource DeathSound;
+  //  public AudioSource DeathSound;
     
     private void Start()
     {
@@ -25,7 +25,7 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
-        DeathSound.Play();
+        //DeathSound.Play();
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
     }
