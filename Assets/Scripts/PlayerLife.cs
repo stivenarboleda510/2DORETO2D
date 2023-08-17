@@ -20,6 +20,7 @@ public class PlayerLife : MonoBehaviour
         if (collision.gameObject.CompareTag("Trap"))
         {
             Die();
+            //RestartLevel();
         }
     }
 
@@ -33,6 +34,7 @@ public class PlayerLife : MonoBehaviour
     private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene("Nivel1");
     }
     
 }
